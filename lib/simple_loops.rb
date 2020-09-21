@@ -25,10 +25,10 @@ end
 
 def return_string_array(array)
   counter = 0
-  Array.new = []
+  array = Array.new
   while counter < array.length do
-    array[counter].to_s << Array.new
+    array[counter].to_s << array
     counter += 1
   end
-  Array.new
+  array
 end
